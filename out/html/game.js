@@ -504,13 +504,8 @@
     };
 
     const profileImages = {
-      'cfa': 'assets/pics/profile-facilyn.jpg',
-      'cve': 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face',
-      'cst': 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop&crop=face',
-      'cdr': 'https://images.unsplash.com/photo-1494790108755-2616b612b786?w=100&h=100&fit=crop&crop=face',
-      'ch1': 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&crop=face',
-      'ch2': 'https://images.unsplash.com/photo-1519345182560-3f2917c472ef?w=100&h=100&fit=crop&crop=face',
-      'ch3': 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face'
+      'cfa': 'assets/pics/profile-facilyn.webp',
+      'cve': 'assets/pics/profile-vendor.webp'
     };
 
     const characterNames = {
