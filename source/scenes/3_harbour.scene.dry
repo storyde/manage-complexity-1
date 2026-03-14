@@ -1,45 +1,41 @@
 title: Harbour 
 on-arrival: progress = 3
 
-You reach the old harbour.
+You reach the harbour.
 
 A delivery drone circles above the water, tilting for a better selfie angle.  
 
 Between crates, a child kneels in the dust, drawing with a stick.
 
-On the quay, a vendor leans against his dented trailer and calls out:
+A vendor leans against his dented trailer and calls out:
 
 Vendor: One sip for a coin. Otherwise you walk on thirsty.
 
 - #harbour
 
-@vendor_scene  
-title: Approach the vendor  
+@vendor_scene
+title: Approach the vendor
 max-visits: 1
 tags: harbour
 
-You walk over. Old newspapers cover the produce crates.
+You walk over. A small screen jitters with today’s news:
 
-You can still read the headlines through the dust.
+Headline1: Storm rolling in from the western flats.
 
-Headline1: Harvests in the inland valleys down 70%. 
+Headline2: Blackouts hit again. 
 
-Headline2: Blackouts hit the city. 
-
-Headline3: The polycrisis is gaining momentum. 
-
-A storm is rolling in from the western flats. Grit scratches your throat.
+Headline3: The polycrisis is accelerating. 
 
 - #vendor
 
-@pay_vendor  
+@pay_vendor
 title: Buy water
 max-visits: 1
 tags: vendor
 
-You hand over some coins. The water tastes metallic, but it eases your throat. 
+You count out a few coins into the vendor’s palm. He drops them into a tin that’s almost empty.
 
-The vendor slowly moves a grey cloth across the counter.
+The water tastes of metal, but it eases your throat. 
 
 - #vendor
 
@@ -79,8 +75,6 @@ Vendor: Follow the water to the long pier. You'll know the teahouse by the paper
 
 You thank him, follow his gaze along the water, and set off.
 
-The vendor watches you leave, as if deciding whether you understood him.
-
 Between crates and moored boats, the child is still drawing in the dust.
 
 - #quay
@@ -94,7 +88,7 @@ It's only a few lines: a church. A school. A rocket.
 
 For a moment the wind holds its breath. 
 
-Then a gust from the coming storm sweeps through the harbour. The lines smear into the same grey dust that coats the newspapers.
+Then a gust from the coming storm sweeps through the harbour. The lines smear into grey dust.
 
 - @way_teahouse
 
@@ -121,12 +115,12 @@ You crouch and pick it up.
 
 Me: Let's see... sensors misaligned.
 
-You switch off the drone, adjust its optics, check the battery, and power it up again.
+You switch it off, adjust its optics, check the battery, and power it up again.
 
 Its display flickers: 
 
 RoboDisplay: `Thank you!`
 
-The drone lifts off, circling once before wheeling back among the birds.
+The drone lifts off, circling once before playing again with the birds.
 
 - #th_arrival
