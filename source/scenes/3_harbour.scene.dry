@@ -5,9 +5,9 @@ You reach the old harbour.
 
 A delivery drone circles above the water, searching for the best angle for a selfie.  
 
-In the hinterland, a dust storm is brewing, its grit already scratching at your throat.
+A dust storm is brewing, its grit already scratching at your throat.
 
-On the quay, a vendor leans against his dented water tank, hoisting a cloudy glass and calling out:
+On the quay, a vendor leans against his dented trailer and calling out:
 
 Vendor: One sip for a coin. Or you keep walking thirsty. 
 
@@ -18,7 +18,7 @@ title: Approach the vendor
 max-visits: 1
 tags: harbour
 
-You walk over to the tank. Faded posters hang from it, half covered in dust. 
+You walk over to him. Old newspapers cover some produce. 
 
 You can still make out the headlines: 
 
@@ -35,7 +35,7 @@ title: Buy water
 max-visits: 1
 tags: vendor
 
-You hand over some crypto. The water tastes metallic, but it eases the scratching in your throat. 
+You hand over some coins. The water tastes metallic, but it eases the scratching in your throat. 
 
 The vendor cleans some glasses.  
 
@@ -73,7 +73,7 @@ tags: vendor
 
 Me: Can you tell me how to get to the teahouse?
 
-Vendor: Follow the water until you reach the long pier with the small lighthouse at the end. You'll recognize the teahouse by the paper lanterns. They leave them out even in a storm. 
+Vendor: Follow the water until you reach the long pier. You'll recognize the teahouse by the paper lanterns. They leave them out even in a storm. 
 
 You thank him, follow his gaze along the water and set off. 
 
@@ -92,8 +92,6 @@ For a moment the wind holds its breath.
 
 Then a gust sweeps through the harbour and smears the lines until only grey dust remains. 
 
-The child glances at the empty spot, sets the stick down again and starts drawing anew. 
-
 - @way_teahouse
 
 @way_teahouse
@@ -102,9 +100,7 @@ unavailable-subtitle: You don't know the way yet
 choose-if: know-way = 1 
 tags: harbour, quay
 
-You walk along the quay and reach a long pier with a small lighthouse at the end of it, its beam lost over the water. 
-
-At the start of the pier, an old warehouse rises up. 
+You walk along the quay and reach the teahouse. 
 
 Paper lanterns sway in the wind. Between them, wind chimes made from old teapots clink softly together. 
 

@@ -754,7 +754,7 @@ h1, h2, h3, h4, h5, h6 {
   border-bottom: 2px solid var(--text-primary);
   backdrop-filter: none;
   box-shadow: none;
-  text-align: left;
+  text-align: center;
   font-weight: 700;
   font-style: italic;
   letter-spacing: 0.02em;
@@ -839,7 +839,7 @@ h1, h2, h3, h4, h5, h6 {
     0 2px 6px rgba(30, 32, 34, 0.04),
     inset 0 1px 0 rgba(255, 255, 255, 0.92),
     inset 0 -6px 14px rgba(255, 255, 255, 0.24);
-  text-align: center;
+  text-align: left;
   font-family: var(--font-family-body);
   font-size: var(--font-size-md);
   padding: var(--space-xl);

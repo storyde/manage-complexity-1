@@ -7,6 +7,8 @@ tags: root
 
 = Title
 
+{!<img src="assets/imgs/sailboat.jpg" style="max-height:50vh;">!}
+
 Some Text <br> manual line break
 
 Paper: <textarea id="textarea" placeholder="Add here anything you are missing." oninput="window.dendryUI && window.dendryUI.dendryEngine && (window.dendryUI.dendryEngine.state.qualities.textarea = this.value);"></textarea>
