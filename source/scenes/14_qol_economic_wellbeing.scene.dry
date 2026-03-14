@@ -1,13 +1,13 @@
-title: Ok
+title: Alright
 on-arrival: progress = 15
 tags: qol_intro
 new-page: true
 
-Me: Ok
+Me: Alright
 
-Facilyn: Let’s start with essential human needs that are met by economic well-being like the quality of your food and water or your shelter.
+Facilyn: Let’s start with essential human needs that are met by economic well-being.
 
-Facilyn: Which aspects of economic well-being improve your quality of life?
+Facilyn: Which aspects matter most to you?
 
 - #economic_aspects
 
@@ -41,9 +41,11 @@ Me: Resources for good health and security, with reliable food, clean water, clo
 title: Balance
 on-arrival: progress = 16
 
+Facilyn: Great.
+
 Facilyn: Economic well-being also enables you to have time for family and friends or for cultural and other pursuits. 
 
-Facilyn: Which aspects resonate most with you?
+Facilyn: What do you want to make sure you don’t miss?
 
 - #balance_aspects
 

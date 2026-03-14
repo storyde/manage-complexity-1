@@ -58,17 +58,15 @@ She gestures to the seats across from her.
 - #what_up_to
 
 @what_up_to
-title: Ask what she has been up to
+title: What have you been up to?
 max-visits: 1
 tags: what_up_to
 
-Me: So. What have you been up to?
+Me: What have you been up to?
 
 Facilyn: I’ve been traveling a lot since we last saw each other. Different cities. Different cultures. Same pattern.
 
-Facilyn: People trying. Really trying. Long meetings. Careful drafts. Building tools they hope will hold.
-
-Facilyn: And still... the problems multiply faster than the solutions.
+Facilyn: People trying. Really trying. But the problems multiply faster than the solutions.
 
 Facilyn wraps the string of her teabag once around her finger, thinking.
 

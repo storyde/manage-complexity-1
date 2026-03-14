@@ -12,66 +12,65 @@ title: Progress
 
 [? if decision-makers = 0 : *Interact for more.* ?]
 
-[? if progress > 25 and player = "one" : <h1>Holistic Context:</h1><br>I want [+ qol-economic +] in a balanced life with [+ qol-balance +]. My relationships will be grounded in [+ qol-relationships +]. I thrive on [+ qol-challenge +] and want to be free to [+ qol-growth +]. I find purpose in [+ qol-purpose +]. I seek to be [+ qol-aspiration +] and want to contribute to [+ qol-accomplish +]. <br>[+ textarea +] <br><br>I will act in ways that are [+ frb-people +]. <br><br>All to be ensured, for many generations to come, on a foundation of [+ frb-environment +]. ?]
+[? if decision-makers != 0 : <h1>Holistic Context:</h1> ?]
 
-[? if progress > 25 and player = "group" : <h1>Holistic Context:</h1><br>We want [+ qol-economic +] in balanced lives with [+ qol-balance +]. Our relationships will be grounded in [+ qol-relationships +]. We thrive on [+ qol-challenge +] and want to be free to [+ qol-growth +]. We find purpose in [+ qol-purpose +]. We seek to be [+ qol-aspiration +] and want to contribute to [+ qol-accomplish +]. <br>[+ textarea +] <br><br>We will act in ways that are [+ frb-people +]. <br><br>All to be ensured, for many generations to come, on a foundation of [+ frb-environment +]. ?]
+[? if progress > 25 and player = "one" : I want [+ qol-economic +] in a balanced life with [+ qol-balance +]. My relationships will be grounded in [+ qol-relationships +]. I thrive on [+ qol-challenge +] and want to be free to [+ qol-growth +]. I find purpose in [+ qol-purpose +]. I seek to be [+ qol-aspiration +] and want to contribute to [+ qol-accomplish +]. <br>[+ textarea +] <br><br>I will act in ways that are [+ frb-people +]. <br><br>All to be ensured, for many generations to come, on a foundation of [+ frb-environment +]. ?]
 
-[? if progress > 25 and player = "org" : <h1>Holistic Context:</h1><br>We want [+ qol-economic +] in balanced lives with [+ qol-balance +]. Our relationships will be grounded in [+ qol-relationships +]. We thrive on [+ qol-challenge +] and want to be free to [+ qol-growth +]. We find purpose in [+ qol-purpose +]. We seek to be [+ qol-aspiration +] and want to contribute to [+ qol-accomplish +]. <br>[+ textarea +] <br><br>We will act in ways that are [+ frb-people +]. <br><br>All to be ensured, for many generations to come, on a foundation of [+ frb-environment +]. ?]
+[? if progress > 25 and player = "group" : We want [+ qol-economic +] in balanced lives with [+ qol-balance +]. Our relationships will be grounded in [+ qol-relationships +]. We thrive on [+ qol-challenge +] and want to be free to [+ qol-growth +]. We find purpose in [+ qol-purpose +]. We seek to be [+ qol-aspiration +] and want to contribute to [+ qol-accomplish +]. <br>[+ textarea +] <br><br>We will act in ways that are [+ frb-people +]. <br><br>All to be ensured, for many generations to come, on a foundation of [+ frb-environment +]. ?]
 
-[? if progress < 26 :  ?]
-[? if decision-makers != 0 : <h1>Holistic Context: </h1> ?] 
+[? if progress > 25 and player = "org" : We want [+ qol-economic +] in balanced lives with [+ qol-balance +]. Our relationships will be grounded in [+ qol-relationships +]. We thrive on [+ qol-challenge +] and want to be free to [+ qol-growth +]. We find purpose in [+ qol-purpose +]. We seek to be [+ qol-aspiration +] and want to contribute to [+ qol-accomplish +]. <br>[+ textarea +] <br><br>We will act in ways that are [+ frb-people +]. <br><br>All to be ensured, for many generations to come, on a foundation of [+ frb-environment +]. ?]
 
-[? if decision-makers != 0 : **Whole Under Management** ?]
+[? if progress < 26 and decision-makers != 0 : <h2>Whole Under Management</h2> ?]
 
-[? if decision-makers != 0 : **Decision makers:** [+ decision-makers +] ?]
+[? if progress < 26 and decision-makers != 0 : **Decision makers:** [+ decision-makers +] ?]
 
-[? if rb-physical != 0 : **Physical resources:** [+ rb-physical +] ?]
+[? if progress < 26 and rb-physical != 0 : **Physical resources:** [+ rb-physical +] ?]
 
-[? if rb-human != 0 : **Social resources:** [+ rb-human +] ?]
+[? if progress < 26 and rb-human != 0 : **Social resources:** [+ rb-human +] ?]
 
-[? if wum-money != 0 : **Monetary resources:** [+ wum-money +] ?]
-
-
-[? if player = "org" and st-purpose != 0 : **Statement of Purpose** ?]
-
-[? if player = "org" and st-purpose != 0 : [+ st-purpose +] ?]
+[? if progress < 26 and wum-money != 0 : **Monetary resources:** [+ wum-money +] ?]
 
 
-[? if qol-economic != 0 : **Quality of Life** ?]
+[? if progress < 26 and player = "org" and st-purpose != 0 : <h2>Statement of Purpose</h2> ?]
 
-[? if qol-economic != 0 : **Economic well-being:** [+ qol-economic +] ?]
-
-[? if qol-balance != 0 : **And:** [+ qol-balance +] ?]
-
-[? if qol-relationships != 0 : **Relationships:** [+ qol-relationships +] ?]
-
-[? if qol-challenge != 0 : **Challenge:** [+ qol-challenge +] ?]
-
-[? if qol-growth != 0 : **Growth:** [+ qol-growth +] ?]
-
-[? if qol-purpose != 0 and player = "one" : **I am about:** [+ qol-purpose +] ?]
-
-[? if qol-purpose != 0 and player != "one" : **We are about:** [+ qol-purpose +] ?]
-
-[? if qol-aspiration != 0 and player = "one" : **I want to be:** [+ qol-aspiration +] ?]
-
-[? if qol-aspiration != 0 and player != "one" :** We want to be:** [+ qol-aspiration +] ?]
-
-[? if qol-accomplish != 0 and player = "one" : **I ultimately want to accomplish:** [+ qol-accomplish +] ?]
-
-[? if qol-accomplish != 0 and player != "one" : **We ultimately want to accomplish:** [+ qol-accomplish +] ?]
-
-[? if textarea != 0 : [+ textarea +] ?]
+[? if progress < 26 and player = "org" and st-purpose != 0 : [+ st-purpose +] ?]
 
 
-[? if frb-people != 0 or frb-environment != 0 : **Future Resource Base** ?]
+[? if progress < 26 and qol-economic != 0 : **Quality of Life** ?]
 
-[? if frb-people != 0 : **Our behaviour:** [+ frb-people +] ?]
+[? if progress < 26 and qol-economic != 0 : **Economic well-being:** [+ qol-economic +] ?]
 
-[? if frb-environment != 0 : **Environment:** [+ frb-environment +] ?]
+[? if progress < 26 and qol-balance != 0 : **And:** [+ qol-balance +] ?]
+
+[? if progress < 26 and qol-relationships != 0 : **Relationships:** [+ qol-relationships +] ?]
+
+[? if progress < 26 and qol-challenge != 0 : **Challenge:** [+ qol-challenge +] ?]
+
+[? if progress < 26 and qol-growth != 0 : **Growth:** [+ qol-growth +] ?]
+
+[? if progress < 26 and qol-purpose != 0 and player = "one" : **I am about:** [+ qol-purpose +] ?]
+
+[? if progress < 26 and qol-purpose != 0 and player != "one" : **We are about:** [+ qol-purpose +] ?]
+
+[? if progress < 26 and qol-aspiration != 0 and player = "one" : **I want to be:** [+ qol-aspiration +] ?]
+
+[? if progress < 26 and qol-aspiration != 0 and player != "one" :** We want to be:** [+ qol-aspiration +] ?]
+
+[? if progress < 26 and qol-accomplish != 0 and player = "one" : **I ultimately want to accomplish:** [+ qol-accomplish +] ?]
+
+[? if progress < 26 and qol-accomplish != 0 and player != "one" : **We ultimately want to accomplish:** [+ qol-accomplish +] ?]
+
+[? if progress < 26 and textarea != 0 : [+ textarea +] ?]
 
 
-[? if fltr-cause != 0 : </h1>Filter Questions: </h1> ?]
+[? if progress < 26 and frb-people != 0 or frb-environment != 0 : <h2>Future Resource Base</h2> ?]
+
+[? if progress < 26 and frb-people != 0 : **Our behaviour:** [+ frb-people +] ?]
+
+[? if progress < 26 and frb-environment != 0 : **Environment:** [+ frb-environment +] ?]
+
+
+[? if fltr-cause != 0 : <h2>Filter Questions: </h2> ?]
 
 [? if fltr-cause != 0 : **Cause and Effect:** [+ fltr-cause +] ?]
 

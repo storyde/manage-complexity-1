@@ -1,9 +1,7 @@
 title: Contribution
 on-arrival: progress = 21
 
-Facilyn: The next two questions are about contribution.
-
-Facilyn: "What do we want to be?"
+Facilyn: What do you want to be?
 
 - #qol_aspiration
 
@@ -90,9 +88,9 @@ Me: An innovative pioneer exploring new frontiers
 title: What do we ultimately want to accomplish?
 on-arrival: progress = 22
 
-Facilyn: The next question asks: 
+Facilyn: Great. 
 
-Facilyn: "What do we ultimately want to accomplish?"
+Facilyn: And in terms of contribution, what do you ultimately want to accomplish?
 
 - #qol_accomplish
 
