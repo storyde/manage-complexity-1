@@ -3,13 +3,13 @@ on-arrival: progress = 3
 
 You reach the old harbour.
 
-A delivery drone circles above the water, searching for the best angle for a selfie.  
+A delivery drone circles above the water, tilting for a better selfie angle.  
 
-A dust storm is brewing, its grit already scratching at your throat.
+Between crates, a child kneels in the dust, drawing with a stick.
 
-On the quay, a vendor leans against his dented trailer and calling out:
+On the quay, a vendor leans against his dented trailer and calls out:
 
-Vendor: One sip for a coin. Or you keep walking thirsty. 
+Vendor: One sip for a coin. Otherwise you walk on thirsty.
 
 - #harbour
 
@@ -18,15 +18,17 @@ title: Approach the vendor
 max-visits: 1
 tags: harbour
 
-You walk over to him. Old newspapers cover some produce. 
+You walk over. Old newspapers cover the produce crates.
 
-You can still make out the headlines: 
+You can still read the headlines through the dust.
 
-Headline1: Harvests in the region down 70%. 
+Headline1: Harvests in the inland valleys down 70%. 
 
-Headline2: Blackouts hit the outskirts. 
+Headline2: Blackouts hit the city. 
 
 Headline3: The polycrisis is gaining momentum. 
+
+A storm is rolling in from the western flats. Grit scratches your throat.
 
 - #vendor
 
@@ -35,9 +37,9 @@ title: Buy water
 max-visits: 1
 tags: vendor
 
-You hand over some coins. The water tastes metallic, but it eases the scratching in your throat. 
+You hand over some coins. The water tastes metallic, but it eases your throat. 
 
-The vendor cleans some glasses.  
+The vendor slowly moves a grey cloth across the counter.
 
 - #vendor
 
@@ -48,21 +50,21 @@ max-visits: 1
 
 Me: Sorry, what exactly is a polycrisis? 
 
-The vendor raises his eyebrows and gestures towards the harbour with his chin. 
+The vendor squints at you, then gestures toward the dead power lines. 
 
-Vendor: It used to be simple: first you had a power outtage, then maybe some protests. One after the other. 
+Vendor: It used to be simple. First a power outage. Then protests the next week.
 
 He counts them off on his fingers. 
 
-Vendor: Now the fields burn while the water is scarce, while prices shoot up, while people flee. And each of these things makes the others worse. 
+Vendor: Now the fields burn while water runs scarce, prices shoot up, people flee. Each one makes the others worse.
 
 He shrugs. 
 
-Vendor: That's what they call a polycrisis. Many crises at once, feeding each other. 
+Vendor: That's what they call a polycrisis now. Crises feeding each other.
 
-For a moment he looks at you, weighing you up.  
+For a moment he studies you, as if placing you.
 
-Then he leans back against the tank.   
+Then he leans back against the trailer again.   
 
 - #vendor
 
@@ -73,11 +75,13 @@ tags: vendor
 
 Me: Can you tell me how to get to the teahouse?
 
-Vendor: Follow the water until you reach the long pier. You'll recognize the teahouse by the paper lanterns. They leave them out even in a storm. 
+Vendor: Follow the water to the long pier. You'll know the teahouse by the paper lanterns. They leave them out even during storms.
 
-You thank him, follow his gaze along the water and set off. 
+You thank him, follow his gaze along the water, and set off.
 
-Between crates and moored boats, a child draws with a stick in the dust. 
+The vendor watches you leave, as if deciding whether you understood him.
+
+Between crates and moored boats, the child is still drawing in the dust.
 
 - #quay
 
@@ -86,11 +90,11 @@ title: Go closer
 view-if: know-way = 1 
 tags: quay
 
-It's only a few lines, but you immediately recognize a small church, a school building, a rocket.
+It's only a few lines: a church. A school. A rocket.
 
 For a moment the wind holds its breath. 
 
-Then a gust sweeps through the harbour and smears the lines until only grey dust remains. 
+Then a gust from the coming storm sweeps through the harbour. The lines smear into the same grey dust that coats the newspapers.
 
 - @way_teahouse
 
@@ -102,9 +106,9 @@ tags: harbour, quay
 
 You walk along the quay and reach the teahouse. 
 
-Paper lanterns sway in the wind. Between them, wind chimes made from old teapots clink softly together. 
+Paper lanterns sway in the wind. Between them, wind chimes made from old teapots clink softly.
 
-Next to the warehouse, a drone hovers in place, dropping crumbs to a swarm of eager pigeons. Then it falters, tips over and lies twitching on the ground.
+Next to the warehouse, a drone hovers, dropping crumbs to a swarm of pigeons. Then it falters, tips, and lands twitching on the ground.
 
 - #th_arrival
 
@@ -113,16 +117,16 @@ title: Help the drone
 max-visits: 1
 tags: th_arrival
 
-You crouch and carefully pick it up.  
+You crouch and pick it up.
 
-Me: Let's see... sensors misaligned.  
+Me: Let's see... sensors misaligned.
 
-You switch off the drone, adjust its optics, check the battery and switch it back on again.  
+You switch off the drone, adjust its optics, check the battery, and power it up again.
 
-It's display flickers: 
+Its display flickers: 
 
 RoboDisplay: `Thank you!`
 
-The drone lifts off, circling briefly before palling again with the birds. 
+The drone lifts off, circling once before wheeling back among the birds.
 
 - #th_arrival
