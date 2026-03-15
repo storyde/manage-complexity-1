@@ -6,7 +6,9 @@ on-arrival: progress = 10
 
 [? if sector = "policymaking" : Facilyn: And if you’re governing, you’d also invite citizens from different backgrounds. Otherwise this context can end up reflecting your institution’s priorities — not the people you serve. ?]
 
-[? if player != "one" : Facilyn: But given the approaching storm outside, we'll have to do that next time. ?]
+[? if player != "one" : Her eyes move to the horizon for a moment before she continues. ?]
+
+[? if player != "one" : Facilyn: But given the approaching storm outside, I doubt anyone else will show up today. ?]
 
 Facilyn: Now we list your major physical resources — the assets you can use to generate income or support. They just need to be available to you. You don’t have to own them.
 
